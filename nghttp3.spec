@@ -6,13 +6,13 @@
 Summary:	Implementation of HTTP/3 mapping over QUIC and QPACK in C
 Summary(pl.UTF-8):	Implementacja w C odwzorowania HTTP/3 w oparciu o QUIC i QPACK
 Name:		nghttp3
-Version:	1.8.0
+Version:	1.11.0
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/ngtcp2/nghttp3/releases
 Source0:	https://github.com/ngtcp2/nghttp3/releases/download/v%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	febaa2d6d1bf9105a4804df2db29becc
+# Source0-md5:	abf5ecdaf0a1f339cb72501ef91119ed
 URL:		https://github.com/ngtcp2/nghttp3
 BuildRequires:	libstdc++-devel >= 6:7
 BuildRequires:	pkgconfig >= 1:0.20
